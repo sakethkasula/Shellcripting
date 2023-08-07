@@ -11,4 +11,8 @@ echo Good Morning, Today date is $Date
 
 Date=$(date +%F)
 
-echo Good Morning, Today date is $Date
+echo Good Morning, Today date is ${Date}
+
+Expr1=$((1+2*500+100/2-898))
+
+echo Expr1 Output = $Expr1
