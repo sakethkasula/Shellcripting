@@ -9,3 +9,17 @@ if [ $a = "abc1" ]; then
     else
       echo Not Correct
 fi
+
+b=120
+
+if [ $b -eq 120 ]; then
+    echo ok
+    else
+      echo not ok
+fi
+
+if [ $b -eq 121 ]; then
+    echo ok
+    else
+      echo not ok
+fi
