@@ -27,7 +27,7 @@
 #
 #```
 #
-#Finally restart the service once to effect the changes.
+# Finally restart the service once to effect the changes.
 
 rm-f /tmp/roboshop.log
 
