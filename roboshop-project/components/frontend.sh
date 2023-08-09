@@ -29,7 +29,7 @@
 #
 # Finally restart the service once to effect the changes.
 
-rm-f /tmp/roboshop.log
+rm -f /tmp/roboshop.log
 
 echo  "installing NGINX"
 yum install nginx -y >>/tmp/roboshop.log
